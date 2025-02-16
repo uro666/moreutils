@@ -7,6 +7,7 @@ URL:		https://joeyh.name/code/moreutils/
 License:	GPLv2
 Group:		Utilities
 BuildRequires:	make
+BuildRequires:	glibc-devel
 BuildRequires:	docbook-dtds
 BuildRequires:	docbook-style-xsl
 BuildRequires:	libxml2-utils
