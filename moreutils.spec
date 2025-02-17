@@ -5,17 +5,13 @@ Source0:	https://git.joeyh.name/index.cgi/moreutils.git/snapshot/%{name}-%{versi
 Summary:	a collection of unix tools
 URL:		https://joeyh.name/code/moreutils/
 License:	GPLv2
-Group:		Utilities
+Group:		System/Utils
 BuildRequires:	make
-BuildRequires:	glibc-devel
 BuildRequires:	docbook-dtds
-BuildRequires:	docbook-style-xsl
 BuildRequires:	libxml2-utils
 BuildRequires:	xsltproc
-Requires:	perl
 Requires:	perl-IPC-Run
-Requires:	perl-Time-Duration
-Requires:	perl-TimeDate
+
 
 %description 
 additional Unix utilities
@@ -58,19 +54,4 @@ additional Unix utilities
 %doc COPYING
 %doc README
 %doc %{_mandir}/man1/*.1*
-%{_bindir}/chronic
-%{_bindir}/combine
-%{_bindir}/errno
-%{_bindir}/ifdata
-%{_bindir}/ifne
-%{_bindir}/isutf8
-%{_bindir}/lckdo
-%{_bindir}/mispipe
-%{_bindir}/parallel
-%{_bindir}/pee
-%{_bindir}/sponge
-%{_bindir}/ts
-%{_bindir}/vidir
-%{_bindir}/vipe
-%{_bindir}/zrun
-
+%{_bindir}/*
