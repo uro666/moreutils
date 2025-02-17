@@ -1,3 +1,5 @@
+%global debug_package %{nil}
+
 Name:		moreutils
 Version:	0.70
 Release:	1
@@ -35,8 +37,6 @@ additional Unix utilities
   - vidir: edit a directory in your text editor
   - vipe: insert a text editor into a pipe
   - zrun: automatically uncompress arguments to command
-
-%global debug_package %{nil}
 
 %prep
 %autosetup -p1
